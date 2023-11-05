@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 function Tabs({ tabs }) {
-  const [activeTab, setActiveTab] = useState('');
+  const [activeTab, setActiveTab] = useState(tabs[0].title);
 
   function handleClick(tab){
     setActiveTab(tab)
