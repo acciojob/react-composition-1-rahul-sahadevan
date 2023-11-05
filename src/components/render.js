@@ -21,7 +21,7 @@ function Tabs({ tabs }) {
 
         }
       </ul>
-      <p>This is the content for {activeTab}</p>
+      <p>This is the content for {activeTab}.</p>
     </div>
   )
   
